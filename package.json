@@ -28,6 +28,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "plugins": [
+      "jest"
+    ],
     "extends": [
       "react-app",
       "react-app/jest"
@@ -50,5 +53,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/styled-components": "^5.1.26"
-  }
+  },
+  "repository": "https://github.com/simineves/simi-neves-v1.git"
 }

@@ -3,8 +3,7 @@ import styled from "styled-components";
 import { About } from "./components/About";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
-/*import { Projects } from "./components/Projects";
-*/
+import { Projects } from "./components/Projects";
 import "./fonts/fonts.css";
 
 export const App = () => {
@@ -12,6 +11,7 @@ export const App = () => {
     <Container>
       <Header />
       <About />
+      <Projects />
       <Footer />
     </Container>
   );
