@@ -1,19 +1,19 @@
 export const projects: IProject[] = [
     {
       name: "BOAT",
-      tools: ["Express", "MongoDB", "React", "Node"],
-      image: "https://i.ibb.co/hKGygtx/wave.jpg",
+      tools: ["React", "MongoDB", "Node", "Express"],
+      image: require("../assets/screenshots/boat.png"),
       description:
-        "Web app",
-      link: "https://omegu.herokuapp.com/"
+        "The BOAT app was built mimicking a team-client collaborative interaction, leveraging the MERN full-stack for a dashboard application integrating functionality from a custom-made API.",
+      link: "https://github.com/big-brainers"
     },
     {
-      name: "Clues Auxilium",
-      tools: ["Python", "Flask", "React"],
-      image: "https://i.ibb.co/k4p8bnF/applyai.jpg",
+      name: "SF Facilities Map",
+      tools: ["React", "Leaflet", "Netlify", "SWR"],
+      image: require("../assets/screenshots/sf.png"),
       description:
-        "Web app.",
-      link: "https://omegu.herokuapp.com/"
+        "This project is a single-page app that features an interactive map of San Francisco, displaying the location of all city facilities. It allows for searching of specific facilities by name or department, making it easy to find what you need quickly.",
+      link: "https://github.com/simineves/SF_Facilities_Map"
     },
   ];
   
