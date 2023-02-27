@@ -64,7 +64,6 @@ const Image = styled.img`
 `;
 
 const About = styled.div`
-  background-color: ${(props) => props.theme.body};
   display: flex;
   flex-direction: column;
 
@@ -93,11 +92,9 @@ const Pills = styled.div`
 `;
 
 const Description = styled.p`
-  color: ${(props) => props.theme.text};
   font-size: 18px;
 `;
 
 const Name = styled.h2`
-  color: ${(props) => props.theme.text};
   margin: 0px 0px 5px 0px;
 `;

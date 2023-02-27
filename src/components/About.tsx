@@ -74,7 +74,6 @@ export const Link = styled.a<{bgColour?: string}>`
   :hover {
     color: #3aa17b;
   };
-  background-color: ${props => props.bgColour};
 `;
 
 const Body = styled.p`
