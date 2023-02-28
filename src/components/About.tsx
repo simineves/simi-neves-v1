@@ -19,7 +19,7 @@ export const About = () => {
         <br />
         <br />
         For a more detailed look at my experience and qualifications, please refer to my{" "}
-        <Link href="https://drive.google.com/file/d/1e_TNavtoc3CSuPfeCeIpWYCohVTXaJTq/view?usp=share_link">Resume.</Link>
+        <Link href="https://www.dropbox.com/s/g55i9l29a8zd4ul/Resume.pdf?dl=0">Resume.</Link>
         <br />
         <br />
         <Hobbies />
